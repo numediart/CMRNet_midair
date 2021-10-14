@@ -14,3 +14,11 @@ This will generate the local maps for the trajectory_5014 between the start and 
 Once you have generated the maps, you can train the model on the dataset using the `main_visibility_CALIB_midair.py` script. The syntax is as follows:
 
 `python main_visibility_CALIB_midair.py with batch_size=16 data_folder=path_to_root_dir_of_trajectory epochs=100 max_r=10 max_t=2 BASE_LEARNING_RATE=0.0001 savemodel=./checkpoints/ test_sequence=trajectory_5001`
+
+## Acknowledgments
+
+Official implementation of CMRNet can be found [here](https://github.com/cattaneod/CMRNet).
+
+## License
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
